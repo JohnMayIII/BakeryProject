@@ -1,0 +1,381 @@
+*{box-sizing: border-box;}
+
+:root{
+    --bb-brown: #603300;
+    --bb-text: #EEEEFF;
+    --bb-blue: #03BAD6;
+    --bb-pink: #DBB1BC;
+    --bb-font: 'Dancing Script', cursive;
+}
+
+/* font-family: 'Dancing Script', cursive; */
+
+.header{
+    background-color: var(--bb-brown);
+    padding-block: 20px;
+}
+
+.brand-name{
+    font-family: var(--bb-font);
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.nav-item{
+    list-style: none;
+    border: 2px solid var(--bb-text);
+    border-radius: 5px;
+    padding:  0 5px 5px 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    background-color: var(--bb-pink);
+    border-color: var(--bb-pink);
+    color: var(--bb-brown);
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--bb-text);
+    background: linear-gradient(to bottom, var(--bb-brown) 90%, rgb(166, 89, 0));
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.cart-button, .nav-item{
+    font-size: 20px;
+}
+
+.cart-button{
+    color: var(--bb-brown);
+    background-color: var(--bb-text);
+    /* border-color: var(--bb-text); */
+    border: 3px solid var(--bb-text);
+    display: flex;
+}
+
+.cart-div{
+    padding-top: 5px;
+}
+
+.cart-button:hover{
+    background-color: var(--bb-text);
+    border-color: var(--bb-pink);
+    color: var(--bb-brown);
+}
+
+.top-sender{
+    font-family: var(--bb-font);
+}
+
+.footer{
+    background-color: var(--bb-brown);
+    color: var(--bb-text);
+    background: linear-gradient(to top, var(--bb-brown) 90%, rgb(166, 89, 0));
+    padding: 10px 10px 0 10px;
+}
+
+.footer-col{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container{
+    margin-top: 5px;
+}
+
+
+.top-send-link{
+    color: var(--bb-text);
+    text-decoration: none;
+    border: 2px solid var(--bb-brown);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.top-send-link:hover{
+    border: 2px solid var(--bb-text);
+    border-radius: 5px;
+}
+
+.main{
+    background-image: url(https://www.foodnavigator-latam.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/latam/brazil-bread-and-baked-goods-market-2017-2018-growth-mintel/7944071-2-eng-GB/Brazil-bread-and-baked-goods-market-2017-2018-growth-Mintel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-block: 100px;
+}
+
+.all-main{
+    padding-bottom: 100px;
+}
+
+.intro-div{
+    text-align: center;
+    background-color: var(--bb-brown);
+    border: 2px solid var(--bb-text);
+    color: var(--bb-text);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+    padding-block: 15px;
+
+}
+
+.featured-div, .discount-div{
+    text-align: center;
+    background-color: var(--bb-brown);
+    border: 2px solid var(--bb-text);
+    color: var(--bb-text);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+    padding-block: 25px;
+    margin-top: 125px;
+    /* padding-bottom: 75px; */
+}
+
+.all-items-btn{
+    color: var(--bb-text);
+    border: 2px solid var(--bb-text);
+}
+
+.all-items-btn:hover{
+    color: var(--bb-pink);
+    border: 2px solid var(--bb-pink);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+
+
+.material-symbols-outlined {
+    color: var(--bb-brown);
+    background-color: var(--bb-text);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.item-body{
+    text-align: center;
+    background-image: url(https://via.placeholder.com/100x100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid var(--bb-text);
+    border-radius: 5px;
+    height: 300px;
+    padding: 140px 0;
+}
+
+.item-card{
+    border: 2px solid var(--bb-text);
+    border-bottom: 1px solid var(--bb-text);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+.item-name{
+    color: var(--bb-brown);
+    font-family: var(--bb-font);
+    font-size: 25px;
+    background-color: var(--bb-text);
+    opacity: 50%;
+    border-radius: 1px;
+}
+
+.item-view-btn{
+    background-color: var(--bb-text);
+    color: var(--bb-brown);
+    border: 2px solid var(--bb-text);
+}
+
+.item-view-btn:hover{
+    background-color: var(--bb-text);
+    color: var(--bb-brown);
+    border: 2px solid var(--bb-text);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+.item-group{
+    padding-bottom: 75px;
+}
+
+.item-div{
+    display: flex;
+}
+
+.single-item-title{
+    color: var(--bb-text);
+    font-family: var(--bb-font);
+}
+
+.s-i-t-div{
+    text-align: center;
+    background-color: var(--bb-brown);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--bb-text);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+.sit-title-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.single-main{
+    padding-bottom: 100px;
+}
+
+.contact-main{
+    height: 100vh;
+}
+
+.desc-div{
+    padding: 160px 50px;
+    background-color: var(--bb-brown);
+    border-radius: 5px;
+    border: 2px solid var(--bb-text);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+    text-align: center;
+}
+
+.single-desc-text{
+    color: var(--bb-text);
+}
+
+.placeholder-image{
+    border-radius: 5px;
+}
+
+.buy-button{
+    color: var(--bb-brown);
+    background-color: var(--bb-text);
+    border: 3px solid var(--bb-text);
+}
+
+.buy-button:hover{
+    background-color: var(--bb-text);
+    border-color: var(--bb-pink);
+    color: var(--bb-brown);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+.contact-header{
+    text-align: center;
+    color: var(--bb-text);
+    font-family: var(--bb-font);
+    background-color: var(--bb-brown);
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+    border-radius: 5px;
+    border: 2px solid var(--bb-text);
+    padding-block: 10px;
+}
+
+.featured-div, .discount-div, .intro-div{
+    padding-block: 40px;
+}
+
+.all-items-link{
+    text-decoration: none;
+    color: var(--bb-text);
+}
+
+.input-div{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 25px;
+}
+
+.submit-div{
+    text-align: center;
+    padding-block: 25px;
+}
+
+.contact-submit-btn{
+    font-family: var(--bb-font);
+    padding: 10px;
+    font-size: 30px;
+    background-color: var(--bb-brown);
+    color: var(--bb-text);
+    border: 2px solid var(--bb-text);
+    border-radius: 5px;
+}
+
+.contact-submit-btn:hover{
+    box-shadow: 0 0 10px 5px var(--bb-pink);
+}
+
+.explain-text{
+    background-color: var(--bb-brown);
+    color: var(--bb-text);
+    font-family: var(--bb-font);
+    font-weight: 100px;
+    border: 2px solid var(--bb-text);
+    padding-block: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media (max-width: 320px){
+    .contact-main{
+        height: 110vh; 
+    }
+}
+
+@media(min-width: 1024px){
+    .form-div{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 768px){
+    .input-div{
+        flex-direction: column;
+        padding: 0 90px;
+    }
+
+    .subject-box{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .brand-name{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .cart-text{
+        display: none;
+    }
+    .brand-name{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 576px){
+    .featured-img-div, .discount-img-div{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
